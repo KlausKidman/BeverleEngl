@@ -734,6 +734,9 @@ body {
 		.logo_container {
 			margin-left: -13px;
 		}
+		.free_trial {
+			display: none;
+		}
 	}
 	
 	.nav {
@@ -742,9 +745,7 @@ body {
 	.wrapper {
 		margin: 0 20px;
 	}
-	.free_trial {
-		display: none;
-	}
+	
 	.welcom_section_bot__img {
 		display: none;
 	}
@@ -824,5 +825,24 @@ body {
 	.blog_cards__card_small, .blog_cards__card_big {
 		width: 95%;
 		margin: 20px auto 0;
+	}
+	.page_title_h1 {
+		font:bold 24px/33px 'Noto Sans';
+	}
+	.page_title_h2 {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.page_title_h3 {
+		font-size: 12px;
+		line-height: 17px;
+	}
+	.page_text_18px {
+		font: 12px/17px 'Noto Sans';
+	}
+	
+	.page_text_14px {
+		font-size: 10px;
+		line-height: 12px;
 	}
 }
