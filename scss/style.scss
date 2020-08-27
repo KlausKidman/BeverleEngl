@@ -764,6 +764,9 @@ body {
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
+	.containeer_lesson_card {
+		flex-wrap: wrap;
+	}
 	.blog_cards {
 		flex-direction: column;
 		align-items: center;
@@ -787,6 +790,21 @@ body {
 		.page_text_14px {
 			font: 18px/25px 'Noto sans';
 			margin-top: 14px;
+		}
+	}
+	.conteiner_form {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.section_title_connection {
+		flex-direction: column;
+		align-items: center;
+	}
+	.section_title_connection{
+		.connection_list {
+			padding-left: 0;
+			border-left: 0 solid transparent;
+			border-top: 10px solid $ColorOrange;
 		}
 	}
 }
